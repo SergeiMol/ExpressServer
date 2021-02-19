@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f445852d-4f19-41f5-abb6-8c29a69bd6e4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1oIxiTRxhB5EhIv9xtCy6WOZMxS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Start Backend" type="NodeJSConfigurationType" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f445852d-4f19-41f5-abb6-8c29a69bd6e4" name="Default Changelist" comment="" />
+      <created>1612988034335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612988034335</updated>
+      <workItem from="1612988035247" duration="1490000" />
+      <workItem from="1613071040213" duration="86000" />
+      <workItem from="1613073488773" duration="31000" />
+      <workItem from="1613075611634" duration="1103000" />
+      <workItem from="1613077569826" duration="477000" />
+      <workItem from="1613078508785" duration="691000" />
+      <workItem from="1613079335324" duration="603000" />
+      <workItem from="1613121875541" duration="4609000" />
+      <workItem from="1613139375581" duration="619000" />
+      <workItem from="1613140088034" duration="4812000" />
+      <workItem from="1613225525444" duration="699000" />
+      <workItem from="1613250972916" duration="5375000" />
+      <workItem from="1613293103585" duration="6876000" />
+      <workItem from="1613334616402" duration="5052000" />
+      <workItem from="1613402566242" duration="502000" />
+      <workItem from="1613486718379" duration="2243000" />
+      <workItem from="1613584459772" duration="6193000" />
+      <workItem from="1613639302622" duration="4802000" />
+      <workItem from="1613668071508" duration="9000000" />
+      <workItem from="1613684741205" duration="3007000" />
+      <workItem from="1613690000455" duration="1075000" />
+      <workItem from="1613714312867" duration="5929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613079477933">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1613079477933" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1613714346200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613714346200" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1613079943766">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613079943766" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1613079943765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613079943765" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1613079943765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613079943765" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1613079943765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613079943765" />
+    <state x="478" y="11" width="579" height="801" key="find.popup" timestamp="1613600835214">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="11" width="579" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1613600835214" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1613717307869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1613717307869" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1613125683636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1613125683636" />
+  </component>
+</project>
