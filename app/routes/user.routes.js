@@ -11,52 +11,52 @@ module.exports = function (app) {
     });
 
     app.get(
-        "/api/test/all",
+        "https://modest-neumann-88d173.netlify.app/api/test/all",
         controller.allAccess
     );
 
     app.get(
-        '/api/test/users',
+        'https://modest-neumann-88d173.netlify.app/api/test/users',
         [authJwt.verifyToken],
         controller.getAllUsers
     );
 
     app.get(
-        "/api/test/user",
+        "https://modest-neumann-88d173.netlify.app/api/test/user",
         [authJwt.verifyToken],
         controller.userBoard
     );
 
     app.get(
-        "/api/test/user/validate",
+        "https://modest-neumann-88d173.netlify.app/api/test/user/validate",
         [authJwt.verifyToken],
         controller.verifyAccess
     )
 
     app.get(
-        "/api/test/mod",
+        "https://modest-neumann-88d173.netlify.app/api/test/mod",
         [authJwt.verifyToken, authJwt.isModerator],
         controller.moderatorBoard
     );
 
     app.get(
-        "/api/test/admin",
+        "https://modest-neumann-88d173.netlify.app/api/test/admin",
         [authJwt.verifyToken, authJwt.isAdmin],
         controller.adminBoard
     );
 
     app.post(
-        "/api/test/delete",
+        "https://modest-neumann-88d173.netlify.app/api/test/delete",
         controller.deleteCheckedUsers
     );
 
     app.post(
-        "/api/test/block",
+        "https://modest-neumann-88d173.netlify.app/api/test/block",
         controller.blockCheckedUsers
     );
 
     app.post(
-        "/api/test/unblock",
+        "https://modest-neumann-88d173.netlify.app/api/test/unblock",
         controller.unblockCheckedUsers
     );
 };
