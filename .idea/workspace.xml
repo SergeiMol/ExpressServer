@@ -4,7 +4,6 @@
     <list default="true" id="f445852d-4f19-41f5-abb6-8c29a69bd6e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/auth.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.model.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <workItem from="1613839513565" duration="207000" />
       <workItem from="1613840479591" duration="14579000" />
       <workItem from="1613866355736" duration="123000" />
-      <workItem from="1613899986315" duration="6295000" />
+      <workItem from="1613899986315" duration="6594000" />
     </task>
     <servers />
   </component>
