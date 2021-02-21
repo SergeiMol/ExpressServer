@@ -10,11 +10,12 @@ var bcrypt = require("bcryptjs");
 
 exports.signup = (req, res) => {
     // Save User to Database
+    let date = new Date();
     User.create({
         username: req.body.username,
         email: req.body.email,
         password: bcrypt.hashSync(req.body.password, 8),
-        createDate: new Date().toJSON(),
+        createDate: new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toJSON(),
         lastLogin: "Not login yet"
     })
         .then(user => {
@@ -70,8 +71,9 @@ exports.signin = (req, res) => {
                     message: "User is blocked"
                 })
             }
+            let date = new Date();
             User.update({
-                lastLogin: new Date().toJSON()
+                lastLogin: new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toJSON()
             }, {
                 where: {
                     username: req.body.username
