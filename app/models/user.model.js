@@ -9,6 +9,12 @@ module.exports = (sequelize, Sequelize) => {
         password: {
             type: Sequelize.STRING
         },
+        createDate: {
+            type: Sequelize.STRING
+        },
+        lastLogin: {
+            type: Sequelize.STRING
+        },
         status: {
             type: Sequelize.TINYINT
         }

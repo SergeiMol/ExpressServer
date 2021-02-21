@@ -10,10 +10,13 @@ var bcrypt = require("bcryptjs");
 
 exports.signup = (req, res) => {
     // Save User to Database
+    let date = new Date();
     User.create({
         username: req.body.username,
         email: req.body.email,
-        password: bcrypt.hashSync(req.body.password, 8)
+        password: bcrypt.hashSync(req.body.password, 8),
+        createDate: new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toJSON(),
+        lastLogin: "Not login yet"
     })
         .then(user => {
             if (req.body.roles) {
@@ -68,6 +71,14 @@ exports.signin = (req, res) => {
                     message: "User is blocked"
                 })
             }
+            let date = new Date();
+            User.update({
+                lastLogin: new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toJSON()
+            }, {
+                where: {
+                    username: req.body.username
+                }
+            })
 
 
             var token = jwt.sign({id: user.id}, config.secret);
@@ -77,6 +88,7 @@ exports.signin = (req, res) => {
                 for (let i = 0; i < roles.length; i++) {
                     authorities.push("ROLE_" + roles[i].name.toUpperCase());
                 }
+
                 res.status(200).send({
                     id: user.id,
                     username: user.username,
