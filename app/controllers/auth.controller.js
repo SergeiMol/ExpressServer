@@ -15,7 +15,6 @@ exports.signup = (req, res) => {
         username: req.body.username,
         email: req.body.email,
         password: bcrypt.hashSync(req.body.password, 8),
-        createDate: new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toJSON(),
         lastLogin: "Not login yet"
     })
         .then(user => {
